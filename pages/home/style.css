@@ -1,0 +1,62 @@
+body{
+    text-align: center;
+    font-family: 'Mouse Memoirs', sans-serif; 
+}
+
+a{
+    font-family: 'Bree Serif', serif;
+
+}
+h1{
+    font-family: 'Mouse Memoirs', sans-serif; 
+}
+
+ul{
+    list-style: none;
+}
+
+@media screen and (min-width:768px) {
+.navbar{
+    height: 20vh;
+    }   
+}
+.logo_img{
+    width: 18vw;
+
+}
+
+.spans{
+    border-right: 10 px solid  rgb(253, 11, 11);
+}
+/* #top_img{
+    overflow: visible;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://assets.website-files.com/5d42433702c7536df3627046/5ecedbdb7577174bce3f1f19_190821AM02_1446--3840x2160-o.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -o-object-fit: cover;
+    object-fit: cover;
+    z-index: -1;
+} */
+
+.w-background-video>video {
+    background-size: cover;
+    background-position: 50% 50%;
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    right: -100%;
+    bottom: -100%;
+    top: -100%;
+    left: -100%;
+    object-fit: cover;
+    z-index: -100;
+}
+video {
+    display: inline-block;
+    vertical-align: baseline;
+    width: 100vw;
+}
