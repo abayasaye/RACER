@@ -1,16 +1,20 @@
 body{
     text-align: center;
-    font-family: 'Mouse Memoirs', sans-serif; 
 }
-
 a{
     font-family: 'Bree Serif', serif;
+    text-decoration: none;
 
 }
 h1{
     font-family: 'Mouse Memoirs', sans-serif; 
 }
-
+h3{
+    font-family: monospace;
+}
+p{
+    font-family: 'Sansita', sans-serif;
+}
 ul{
     list-style: none;
 }
@@ -25,8 +29,17 @@ ul{
 
 }
 
+
 .spans{
     border-right: 10 px solid  rgb(253, 11, 11);
+}
+#top_text{
+    
+}
+
+footer{
+    background-color:#0b1b30;
+    color: #fff;
 }
 /* #top_img{
     overflow: visible;
