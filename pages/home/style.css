@@ -73,3 +73,24 @@ video {
     vertical-align: baseline;
     width: 100vw;
 }
+
+#main_con{
+    background-image: url(https://assets.website-files.com/5d42433702c7536df3627046/5d50ace98e83098d23767ba3_Drako_speed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    font-family: 'Ubuntu', sans-serif;
+    
+   
+
+}
+
+#about_main{
+    background-image: url(https://assets.website-files.com/5d42433702c7536df3627046/5d50a5793691c921dae414dc_4PassengerLuxury2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color:#0b1b30;
+}
