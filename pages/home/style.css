@@ -3,7 +3,8 @@ body{
 }
 a{
     font-family: 'Bree Serif', serif;
-    text-decoration: none;
+    text-decoration: none !important;
+    color: black !important;
 
 }
 h1{
@@ -38,7 +39,8 @@ ul{
 }
 
 footer{
-    background-color:#0b1b30;
+    background-color:#ccd0d5;
+    opacity: 1;
     color: #fff;
 }
 /* #top_img{
@@ -74,7 +76,7 @@ video {
     width: 100vw;
 }
 
-#main_con{
+#main_contact{
     background-image: url(https://assets.website-files.com/5d42433702c7536df3627046/5d50ace98e83098d23767ba3_Drako_speed.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,12 +87,12 @@ video {
 
 }
 
-#about_main{
-    background-image: url(https://assets.website-files.com/5d42433702c7536df3627046/5d50a5793691c921dae414dc_4PassengerLuxury2.jpg);
+#about_div{
+    /* background-image: url(https://assets.website-files.com/5d42433702c7536df3627046/5d50a5793691c921dae414dc_4PassengerLuxury2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
-    color:#0b1b30;
+    color:#0b1b30; */
 }
