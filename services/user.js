@@ -64,7 +64,7 @@ async function printFromApi () {
 }
 function getPrintRacer(){
 
-    load_div.innerHTML="<img src='/images/load.gif'/>"
+    load_div.innerHTML="<img src='../../images/load.gif'/>"
     printFromApi ()
     .then((result)=>{console.log(result)
         for (let i = 0 ; i < 20 ; i++){

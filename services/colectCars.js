@@ -42,7 +42,7 @@ console.log(err);
    
 
     function getPrintCars(){
-        load_div.innerHTML+="<img src='../images/load.gif'/>"
+        load_div.innerHTML+="<img src='../../images/load.gif'/>"
         printFromApi1 ()
         .then((result)=>{console.log(result)
             for (let i = 0; i < 20; i++) {
